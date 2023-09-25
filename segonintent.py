@@ -1,36 +1,32 @@
 import time
 import threading
 
-const_global = 0
-def proceso_p(etiqueta):
+def threads(etiqueta):
+    const_global = 0
     global wantp
     global wantq
-    k = 1
-    while k==1:
-        print("proceso %s",etiqueta)
-        while(wantq):
-            print("proceso p esperando su turno")
-        wantp = True
+    while True:
+        if wantp == False:
+            while(wantq != False):
+                print("proceso 1 esperando")
+        elif wantq == False:
+            while(wantp != False):
+                print("proceso 2 esperando")
+        if wantq == False:
+            wantp = True
+        elif wantp == False:
+            wantq = True
         const_global+=1
-        print(const_global) 
-        wantp = False
-def proceso_q(etiqueta):
-    global wantp
-    global wantq
-    k = 1
-    while k==1:
-        print("proceso %s",etiqueta)
-        while(wantp):
-            print("proceso q esperando su turno")
-        wantq = True
-        const_global+=1
-        print(const_global)        
-        wantq = False
+        if wantq == False:
+            wantp = False
+        elif wantp == False:
+            wantq = False
+        print(f"proceso {etiqueta}: {const_global}")
 
 wantp = False
 wantq = False
-t1 = threading.Thread(target= proceso_p,args=("1",))
-t2 = threading.Thread(target= proceso_q,args=("2",))
+t1 = threading.Thread(target= threads,args=("1",))
+t2 = threading.Thread(target= threads,args=("2",))
     
 t1.start()
 t2.start()
