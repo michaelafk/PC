@@ -1,6 +1,6 @@
 import threading,time,random
 
-capacidad  = 10
+capacidad  = 5
 maxabelles = 5
 
 class monitor:
