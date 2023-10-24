@@ -9,7 +9,7 @@ func main() {
 	var wg sync.WaitGroup
 	pSemaphore := make(chan int, 2)
 	qSemaphore := make(chan int, 2)
-	rSemaphore := make(chan int, 0)
+	rSemaphore := make(chan int, 1)
 
 	wg.Add(3)
 
@@ -35,7 +35,7 @@ func main() {
 		defer wg.Done()
 		for i := 0; i < 20; i++ {
 			<-rSemaphore
-			fmt.Print("r\n")
+			fmt.Print("    r\n")
 			if i%2 == 0 {
 				pSemaphore <- 1
 			} else {

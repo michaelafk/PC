@@ -23,7 +23,7 @@ def proceso_1(etiqueta):
         const_global+=1
         print(f" proceso {etiqueta}: {const_global}")
         turno = 1
-
+ 
 const_global = 0
 turno = 1
 t1 = threading.Thread(target= proceso_0,args=("1",))

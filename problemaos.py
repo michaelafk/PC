@@ -1,11 +1,11 @@
-import threading,time,random
+import threading,time,random,collections
 
 capacidad  = 5
 maxabelles = 5
 
 class monitor:
-    def __init__(self):
-        self.buffer = []
+    def __init__(self,size):
+        self.buffer = collections.deque([],size)
         self.mutex = threading.Lock()
         self.potmenjar = threading.Condition(self.mutex)
         self.potproduir = threading.Condition(self.mutex)
@@ -13,36 +13,40 @@ class monitor:
     
     def produir(self,item):
         with self.mutex:
-            while len(self.buffer) == capacidad:
+            while len(self.buffer) == self.buffer.maxlen:
                 self.potproduir.wait()
-            self.buffer.append(item)
-            self.potmenjar.notify()
+            if len(self.buffer) == self.buffer.maxlen:
+                self.potmenjar.notify()
+            else:
+                self.buffer.append(item)
+                
         
         
     def consumir(self):
         with self.mutex:
-            while not self.buffer:
+            while len(self.buffer) == 0:
                 self.potmenjar.wait()
-            item = self.buffer.pop()
-            self.potproduir.notify()
+            item = self.buffer.popleft()
+            if len(self.buffer) == 0:
+                self.potproduir.notify_all()
             return item
             
 def productor(buffer, id):
     for i in range(capacidad):
-        item = id + i + random.randint(10,100)
+        item = random.randint(1,100)
         buffer.produir(item)
-        print(f"Productor {id} ha produit: {item}")
-        time.sleep(random.uniform(0.2,0.5))
+        #time.sleep(random.uniform(0.2,0.5))
+        print(f"PRODUCTOR {id} ha produit: {item}")
         
 
 def consumidor(buffer):
     for i in range(capacidad):
         item = buffer.consumir()
-        print(f"            Consumidor ha menjat: {item}")
-        time.sleep(0.2)
-    
+        #time.sleep(0.2)
+        print(f"            CONSUMIDOR ha menjat: {item}")
+
 def main():
-    buffer = monitor()
+    buffer = monitor(capacidad)
     abelles = []
     for i in range(maxabelles):
         abellaproductora = threading.Thread(target = productor, args = (buffer, i))
