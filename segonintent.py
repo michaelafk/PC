@@ -1,10 +1,13 @@
 import time
 import threading
 
+MAX = 20
+THREADS = 2
 want = [False,False]
 def proceso_0(etiqueta):
     global const_global
-    while const_global < 10:
+    time.sleep(0.5)
+    for i in range(MAX // THREADS):
         while want[1]!=False:
             print(f" proceso {etiqueta}: esperando")
         want[0] = True
@@ -13,7 +16,8 @@ def proceso_0(etiqueta):
         want[0] = False
 def proceso_1(etiqueta):
     global const_global
-    while const_global < 9:
+    time.sleep(0.5)
+    for i in range(MAX // THREADS):
         while want[0] != False:
             print(f" proceso {etiqueta}: esperando")
         want[1] = True
