@@ -37,10 +37,3 @@ func Entrada(id int) {
 		time.Sleep(time.Millisecond * 200)
 	}
 }
-
-func main() {
-	wg.Add(2)
-	go Entrada(0)
-	go Entrada(1)
-	wg.Wait()
-}
