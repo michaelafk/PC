@@ -20,8 +20,7 @@ def sospitos(id):
     if SosCount == SosInsala:
         SemJut.release() #hay 6 sospechosos en sala y por tanto llamamos a el juez para que entre
     SemSosE.acquire()
-    if SosCount == SosInsala:
-        SemJut.release() #acabar jutge
+    SemJut.release() #acabar jutge
     print(f"sospitos {id}: \tentra a l'Asil d'Arkham")
 
 def jutge():
