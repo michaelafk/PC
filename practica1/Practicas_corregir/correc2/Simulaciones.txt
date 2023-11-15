@@ -1,0 +1,270 @@
+Simulacion 1.
+Mismas condiciones que la simulación 1 del enunciado.
+
+La policia de Gotham ha detenido a 20 sospechosos
+El juez tomara declaracion a los que pueda
+        Rafael: Soy inocente!
+        Beatriz: Soy inocente!
+        Carolina: Soy inocente!
+        Rosa: Soy inocente!
+        Raquel: Soy inocente!
+        Diego: Soy inocente!
+        David: Soy inocente!
+        Raquel: Soy inocente!
+        Rafael entra al juzgado. Sospechosos 1
+        Marta: Soy inocente!
+        Raquel entra al juzgado. Sospechosos 2
+        Diego entra al juzgado. Sospechosos 3
+        Martin: Soy inocente!
+        David entra al juzgado. Sospechosos 4
+        Antonio: Soy inocente!
+        Beatriz entra al juzgado. Sospechosos 5
+        Rafael fitxa. Fichados: 1
+        Carolina entra al juzgado. Sospechosos 6
+        Marta entra al juzgado. Sospechosos 7
+        Clara: Soy inocente!
+        Antonio: Soy inocente!
+        Beatriz: Soy inocente!
+        Antonio entra al juzgado. Sospechosos 8
+---->   Juez Rosa: Yo soy la ley!
+        Beatriz fitxa. Fichados: 2
+        Rosa entra al juzgado. Sospechosos 9
+        David fitxa. Fichados: 3
+        Ana: Soy inocente!
+        Antonio fitxa. Fichados: 4
+        Raquel fitxa. Fichados: 5
+        Raquel entra al juzgado. Sospechosos 10
+        Alberto: Soy inocente!
+        Laura: Soy inocente!
+        Diego fitxa. Fichados: 6
+        Rosa: Soy inocente!
+        Ana: Soy inocente!
+        David: Soy inocente!
+        Carolina fitxa. Fichados: 7
+        Rosa fitxa. Fichados: 8
+        Clara entra al juzgado. Sospechosos 11
+        Raquel fitxa. Fichados: 9
+        Marta fitxa. Fichados: 10
+        Martin entra al juzgado. Sospechosos 12
+        Alberto entra al juzgado. Sospechosos 13
+        Clara fitxa. Fichados: 11
+        Ana entra al juzgado. Sospechosos 14
+        Antonio entra al juzgado. Sospechosos 15
+        Ana entra al juzgado. Sospechosos 16
+        Beatriz entra al juzgado. Sospechosos 17
+        David entra al juzgado. Sospechosos 18
+        Laura entra al juzgado. Sospechosos 19
+        Martin fitxa. Fichados: 12
+        Ana fitxa. Fichados: 13
+---->   Juez Rosa: Estoy en la sala, cerrad la puerta!
+---->   Juez Rosa: Fixad a los sospechosos presentes.
+        Laura fitxa. Fichados: 14
+        Alberto fitxa. Fichados: 15
+        David fitxa. Fichados: 16
+        Antonio fitxa. Fichados: 17
+        Ana fitxa. Fichados: 18
+        Beatriz fitxa. Fichados: 19
+---->   Juez Rosa: Tomad declaracion a los presentes.
+        David declara. Declaracionnes: 1
+        Rafael declara. Declaracionnes: 2
+        Raquel declara. Declaracionnes: 3
+        Antonio declara. Declaracionnes: 4
+        Diego declara. Declaracionnes: 5
+        Beatriz declara. Declaracionnes: 6
+        Raquel declara. Declaracionnes: 7
+        Rosa declara. Declaracionnes: 8
+        Carolina declara. Declaracionnes: 9
+        Marta declara. Declaracionnes: 10
+        Clara declara. Declaracionnes: 11
+        Alberto declara. Declaracionnes: 12
+        Martin declara. Declaracionnes: 13
+        Laura declara. Declaracionnes: 14
+        Antonio declara. Declaracionnes: 15
+        Ana declara. Declaracionnes: 16
+        David declara. Declaracionnes: 17
+        Beatriz declara. Declaracionnes: 18
+        Ana declara. Declaracionnes: 19
+---->   Juez Rosa: Podeis abandonar la sala todos al asilo!
+---->   Juez Rosa: La justicia descansa, maÃ±ana tomare declaracion a los sospechosos restantes.    
+        David entra al asilo de Arkham
+        Rafael entra al asilo de Arkham
+        Raquel entra al asilo de Arkham
+        Antonio entra al asilo de Arkham
+        Diego entra al asilo de Arkham
+        Beatriz entra al asilo de Arkham
+        Raquel entra al asilo de Arkham
+        Rosa entra al asilo de Arkham
+        Carolina entra al asilo de Arkham
+        Marta entra al asilo de Arkham
+        Clara entra al asilo de Arkham
+        Alberto entra al asilo de Arkham
+        Martin entra al asilo de Arkham
+        Laura entra al asilo de Arkham
+        Antonio entra al asilo de Arkham
+        Ana entra al asilo de Arkham
+        David entra al asilo de Arkham
+        Beatriz entra al asilo de Arkham
+        Ana entra al asilo de Arkham
+        Rosa: No es justo quiero declarar! Soy inocente!
+
+Simulación 2.
+Mismas condiciones que la simulación 2 del enunciado.
+
+La policia de Gotham ha detenido a 20 sospechosos
+El juez tomara declaracion a los que pueda
+---->   Juez Miguel: Yo soy la ley!
+---->   Juez Miguel: Estoy en la sala, cerrad la puerta!
+---->   Juez Miguel: Si no hay nadie me voy!
+---->   Juez Miguel: La justicia descansa, maÃ±ana tomare declaracion a los sospechosos restantes.
+        Antonio: Soy inocente!
+        Ana: Soy inocente!
+        Alejandro: Soy inocente!
+        Miguel: Soy inocente!
+        Carmen: Soy inocente!
+        Diego: Soy inocente!
+        Daniel: Soy inocente!
+        Eduardo: Soy inocente!
+        Luis: Soy inocente!
+        Miguel: Soy inocente!
+        Jose: Soy inocente!
+        Antonio: Soy inocente!
+        Daniel: Soy inocente!
+        Lucia: Soy inocente!
+        Miguel: No es justo quiero declarar! Soy inocente!
+        Alberto: Soy inocente!
+        Rosa: Soy inocente!
+        Diego: No es justo quiero declarar! Soy inocente!
+        Carmen: No es justo quiero declarar! Soy inocente!
+        Luis: No es justo quiero declarar! Soy inocente!
+        Ana: No es justo quiero declarar! Soy inocente!
+        Alejandro: No es justo quiero declarar! Soy inocente!
+        Carolina: Soy inocente!
+        David: Soy inocente!
+        Antonio: No es justo quiero declarar! Soy inocente!
+        Daniel: No es justo quiero declarar! Soy inocente!
+        Daniel: No es justo quiero declarar! Soy inocente!
+        Elena: Soy inocente!
+        Juan: Soy inocente!
+        Antonio: No es justo quiero declarar! Soy inocente!
+        Eduardo: No es justo quiero declarar! Soy inocente!
+        Rosa: No es justo quiero declarar! Soy inocente!
+        Miguel: No es justo quiero declarar! Soy inocente!
+        Carolina: No es justo quiero declarar! Soy inocente!
+        Alberto: No es justo quiero declarar! Soy inocente!
+        Jose: No es justo quiero declarar! Soy inocente!
+        Lucia: No es justo quiero declarar! Soy inocente!
+        Elena: No es justo quiero declarar! Soy inocente!
+        Juan: No es justo quiero declarar! Soy inocente!
+        David: No es justo quiero declarar! Soy inocente!
+
+Simulación 3.
+Mismas condiciones que la simulación 3 del enunciado.
+
+La policia de Gotham ha detenido a 20 sospechosos
+El juez tomara declaracion a los que pueda
+        Carlos: Soy inocente!
+        Isabel: Soy inocente!
+        Francisco: Soy inocente!
+        Luis: Soy inocente!
+        Nuria: Soy inocente!
+        Martin: Soy inocente!
+        Manuel: Soy inocente!
+        Isabel: Soy inocente!
+        Diego: Soy inocente!
+        Pablo: Soy inocente!
+        Laura: Soy inocente!
+        Nuria: Soy inocente!
+        Alberto: Soy inocente!
+        Andres: Soy inocente!
+        Miguel: Soy inocente!
+        Blanca: Soy inocente!
+        Paula: Soy inocente!
+        Eduardo: Soy inocente!
+        Miguel: Soy inocente!
+        Lucia: Soy inocente!
+        Carlos entra al juzgado. Sospechosos 1
+        Martin entra al juzgado. Sospechosos 2
+        Isabel entra al juzgado. Sospechosos 3
+        Carlos fitxa. Fichados: 1
+        Diego entra al juzgado. Sospechosos 4
+        Martin fitxa. Fichados: 2
+        Manuel entra al juzgado. Sospechosos 5
+        Isabel fitxa. Fichados: 3
+        Luis entra al juzgado. Sospechosos 6
+        Diego fitxa. Fichados: 4
+        Francisco entra al juzgado. Sospechosos 7
+        Manuel fitxa. Fichados: 5
+        Isabel entra al juzgado. Sospechosos 8
+        Luis fitxa. Fichados: 6
+        Nuria entra al juzgado. Sospechosos 9
+        Francisco fitxa. Fichados: 7
+        Isabel fitxa. Fichados: 8
+        Pablo entra al juzgado. Sospechosos 10
+        Nuria fitxa. Fichados: 9
+        Pablo fitxa. Fichados: 10
+        Laura entra al juzgado. Sospechosos 11
+        Laura fitxa. Fichados: 11
+        Nuria entra al juzgado. Sospechosos 12
+        Alberto entra al juzgado. Sospechosos 13
+        Nuria fitxa. Fichados: 12
+        Andres entra al juzgado. Sospechosos 14
+        Alberto fitxa. Fichados: 13
+        Miguel entra al juzgado. Sospechosos 15
+        Andres fitxa. Fichados: 14
+        Blanca entra al juzgado. Sospechosos 16
+        Miguel fitxa. Fichados: 15
+        Paula entra al juzgado. Sospechosos 17
+        Blanca fitxa. Fichados: 16
+        Eduardo entra al juzgado. Sospechosos 18
+        Paula fitxa. Fichados: 17
+        Miguel entra al juzgado. Sospechosos 19
+        Eduardo fitxa. Fichados: 18
+        Lucia entra al juzgado. Sospechosos 20
+        Miguel fitxa. Fichados: 19
+        Lucia fitxa. Fichados: 20
+---->   Juez Miguel: Yo soy la ley!
+---->   Juez Miguel: Estoy en la sala, cerrad la puerta!
+---->   Juez Miguel: Fixad a los sospechosos presentes.
+---->   Juez Miguel: Tomad declaracion a los presentes.
+        Carlos declara. Declaracionnes: 1
+        Martin declara. Declaracionnes: 2
+        Isabel declara. Declaracionnes: 3
+        Diego declara. Declaracionnes: 4
+        Manuel declara. Declaracionnes: 5
+        Luis declara. Declaracionnes: 6
+        Francisco declara. Declaracionnes: 7
+        Isabel declara. Declaracionnes: 8
+        Nuria declara. Declaracionnes: 9
+        Pablo declara. Declaracionnes: 10
+        Laura declara. Declaracionnes: 11
+        Nuria declara. Declaracionnes: 12
+        Alberto declara. Declaracionnes: 13
+        Andres declara. Declaracionnes: 14
+        Miguel declara. Declaracionnes: 15
+        Blanca declara. Declaracionnes: 16
+        Paula declara. Declaracionnes: 17
+        Eduardo declara. Declaracionnes: 18
+        Miguel declara. Declaracionnes: 19
+        Lucia declara. Declaracionnes: 20
+---->   Juez Miguel: Podeis abandonar la sala todos al asilo!
+---->   Juez Miguel: La justicia descansa, maÃ±ana tomare declaracion a los sospechosos restantes.
+        Carlos entra al asilo de Arkham
+        Martin entra al asilo de Arkham
+        Isabel entra al asilo de Arkham
+        Diego entra al asilo de Arkham
+        Manuel entra al asilo de Arkham
+        Luis entra al asilo de Arkham
+        Francisco entra al asilo de Arkham
+        Isabel entra al asilo de Arkham
+        Nuria entra al asilo de Arkham
+        Pablo entra al asilo de Arkham
+        Laura entra al asilo de Arkham
+        Nuria entra al asilo de Arkham
+        Alberto entra al asilo de Arkham
+        Andres entra al asilo de Arkham
+        Miguel entra al asilo de Arkham
+        Blanca entra al asilo de Arkham
+        Paula entra al asilo de Arkham
+        Eduardo entra al asilo de Arkham
+        Miguel entra al asilo de Arkham
+        Lucia entra al asilo de Arkham
