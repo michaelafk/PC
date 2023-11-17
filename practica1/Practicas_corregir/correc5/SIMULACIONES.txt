@@ -1,0 +1,253 @@
+SIMULACIÓN 1:
+
+Para esta simulación se han programado tiempos de espera aleatorios (entre 0 y 5) en cada sospechoso antes de querer
+entrar en la sala, y un tiempo aleatorio (entre 0 y 3) en el juez antes de querer entrar en la sala. De esta manera el
+resultado de la ejecución es el siguiente:
+
+Ra's al Ghul: Som innocent!
+Mr. Freeze: Som innocent!
+Mad Hatter: Som innocent!
+Clayface: Som innocent!
+Harley Quinn: Som innocent!
+Penguin: Som innocent!
+Talia al Ghul: Som innocent!
+Hugo Strange: Som innocent!
+Killer Croc: Som innocent!
+Deathstroke: Som innocent!
+Scarecrow: Som innocent!
+Bane: Som innocent!
+Catwoman: Som innocent!
+----> Jutge Dredd: Jo som la llei!
+Joker: Som innocent!
+Poison Ivy: Som innocent!
+Hush: Som innocent!
+Jason Todd: Som innocent!
+Deadshot: Som innocent!
+Riddler: Som innocent!
+Ra's al Ghul entra al jutjat. Sospitosos: 1
+Ra's al Ghul fitxa. Fitxats: 1
+Two-Face: Som innocent!
+Mr. Freeze entra al jutjat. Sospitosos: 2
+Mad Hatter entra al jutjat. Sospitosos: 3
+Mr. Freeze fitxa. Fitxats: 2
+Mad Hatter fitxa. Fitxats: 3
+Clayface entra al jutjat. Sospitosos: 4
+Clayface fitxa. Fitxats: 4
+Harley Quinn entra al jutjat. Sospitosos: 5
+Harley Quinn fitxa. Fitxats: 5
+Penguin entra al jutjat. Sospitosos: 6
+Penguin fitxa. Fitxats: 6
+Talia al Ghul entra al jutjat. Sospitosos: 7
+Talia al Ghul fitxa. Fitxats: 7
+Hugo Strange entra al jutjat. Sospitosos: 8
+Killer Croc entra al jutjat. Sospitosos: 9
+Hugo Strange fitxa. Fitxats: 8
+Killer Croc fitxa. Fitxats: 9
+Deathstroke entra al jutjat. Sospitosos: 10
+Deathstroke fitxa. Fitxats: 10
+Scarecrow entra al jutjat. Sospitosos: 11
+Scarecrow fitxa. Fitxats: 11
+Bane entra al jutjat. Sospitosos: 12
+Bane fitxa. Fitxats: 12
+Catwoman entra al jutjat. Sospitosos: 13
+Catwoman fitxa. Fitxats: 13
+----> Jutge Dredd: Som a la sala, tanqueu la porta!
+----> Jutge Dredd: Fitxeu als sospitosos presents
+----> Jutge Dredd: Preniu declaració als presents
+Ra's al Ghul  declara. Declaracions: 1
+Mr. Freeze  declara. Declaracions: 2
+Mad Hatter  declara. Declaracions: 3
+Clayface  declara. Declaracions: 4
+Harley Quinn  declara. Declaracions: 5
+Penguin  declara. Declaracions: 6
+Talia al Ghul  declara. Declaracions: 7
+Hugo Strange  declara. Declaracions: 8
+Killer Croc  declara. Declaracions: 9
+Deathstroke  declara. Declaracions: 10
+Scarecrow  declara. Declaracions: 11
+Bane  declara. Declaracions: 12
+Catwoman  declara. Declaracions: 13
+----> Jutge Dredd: Podeu abandonar la sala tots a l'asil!
+----> Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden
+Catwoman  entra a l'Asil d'Arkham
+Joker: No és just vull declarar! Som innocent!
+Mad Hatter  entra a l'Asil d'Arkham
+Poison Ivy: No és just vull declarar! Som innocent!
+Hush: No és just vull declarar! Som innocent!
+Jason Todd: No és just vull declarar! Som innocent!
+Deadshot: No és just vull declarar! Som innocent!
+Riddler: No és just vull declarar! Som innocent!
+Two-Face: No és just vull declarar! Som innocent!
+Bane  entra a l'Asil d'Arkham
+Harley Quinn  entra a l'Asil d'Arkham
+Killer Croc  entra a l'Asil d'Arkham
+Deathstroke  entra a l'Asil d'Arkham
+Ra's al Ghul  entra a l'Asil d'Arkham
+Mr. Freeze  entra a l'Asil d'Arkham
+Penguin  entra a l'Asil d'Arkham
+Clayface  entra a l'Asil d'Arkham
+Hugo Strange  entra a l'Asil d'Arkham
+Scarecrow  entra a l'Asil d'Arkham
+Talia al Ghul  entra a l'Asil d'Arkham
+
+SIMULACIÓN 2:
+
+Para esta simulación sólo se ha programado un tiempo de espera de 2 segundos en cada sospechoso antes de querer entrar
+en la sala. De esta manera el juez entra antes que ningún sospechoso. Resultado de la ejecución:
+
+----> Jutge Dredd: Jo som la llei!
+----> Jutge Dredd: Som a la sala, tanqueu la porta!
+----> Jutge Dredd: Si no hi ha ningú me'n vaig!
+----> Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden
+Penguin: Som innocent!
+Penguin: No és just vull declarar! Som innocent!
+Harley Quinn: Som innocent!
+Deadshot: Som innocent!
+Hugo Strange: Som innocent!
+Harley Quinn: No és just vull declarar! Som innocent!
+Riddler: Som innocent!
+Mr. Freeze: Som innocent!
+Poison Ivy: Som innocent!
+Joker: Som innocent!
+Hush: Som innocent!
+Scarecrow: Som innocent!
+Mad Hatter: Som innocent!
+Ra's al Ghul: Som innocent!
+Talia al Ghul: Som innocent!
+Catwoman: Som innocent!
+Jason Todd: Som innocent!
+Clayface: Som innocent!
+Bane: Som innocent!
+Deadshot: No és just vull declarar! Som innocent!
+Killer Croc: Som innocent!
+Two-Face: Som innocent!
+Hugo Strange: No és just vull declarar! Som innocent!
+Deathstroke: Som innocent!
+Riddler: No és just vull declarar! Som innocent!
+Mr. Freeze: No és just vull declarar! Som innocent!
+Poison Ivy: No és just vull declarar! Som innocent!
+Joker: No és just vull declarar! Som innocent!
+Hush: No és just vull declarar! Som innocent!
+Scarecrow: No és just vull declarar! Som innocent!
+Mad Hatter: No és just vull declarar! Som innocent!
+Ra's al Ghul: No és just vull declarar! Som innocent!
+Talia al Ghul: No és just vull declarar! Som innocent!
+Catwoman: No és just vull declarar! Som innocent!
+Jason Todd: No és just vull declarar! Som innocent!
+Clayface: No és just vull declarar! Som innocent!
+Killer Croc: No és just vull declarar! Som innocent!
+Bane: No és just vull declarar! Som innocent!
+Two-Face: No és just vull declarar! Som innocent!
+Deathstroke: No és just vull declarar! Som innocent!
+
+SIMULACIÓN 3:
+
+Para la última simulación únicamente se ha programado un tiempo de espera de 5 segundos en el juez antes de querer
+entrar en la sala. Así se consigue que todos los sospechosos entren en la sala antes que el juez. Resultado de la ejecución:
+
+Deadshot: Som innocent!
+Harley Quinn: Som innocent!
+Penguin: Som innocent!
+Riddler: Som innocent!
+Bane: Som innocent!
+Talia al Ghul: Som innocent!
+Ra's al Ghul: Som innocent!
+Hugo Strange: Som innocent!
+Killer Croc: Som innocent!
+Catwoman: Som innocent!
+Poison Ivy: Som innocent!
+Mr. Freeze: Som innocent!
+Jason Todd: Som innocent!
+Hush: Som innocent!
+Joker: Som innocent!
+Deathstroke: Som innocent!
+Mad Hatter: Som innocent!
+Two-Face: Som innocent!
+Scarecrow: Som innocent!
+Clayface: Som innocent!
+----> Jutge Dredd: Jo som la llei!
+Deadshot entra al jutjat. Sospitosos: 1
+Deadshot fitxa. Fitxats: 1
+Harley Quinn entra al jutjat. Sospitosos: 2
+Penguin entra al jutjat. Sospitosos: 3
+Harley Quinn fitxa. Fitxats: 2
+Riddler entra al jutjat. Sospitosos: 4
+Bane entra al jutjat. Sospitosos: 5
+Penguin fitxa. Fitxats: 3
+Riddler fitxa. Fitxats: 4
+Talia al Ghul entra al jutjat. Sospitosos: 6
+Ra's al Ghul entra al jutjat. Sospitosos: 7
+Bane fitxa. Fitxats: 5
+Talia al Ghul fitxa. Fitxats: 6
+Hugo Strange entra al jutjat. Sospitosos: 8
+Ra's al Ghul fitxa. Fitxats: 7
+Killer Croc entra al jutjat. Sospitosos: 9
+Hugo Strange fitxa. Fitxats: 8
+Killer Croc fitxa. Fitxats: 9
+Catwoman entra al jutjat. Sospitosos: 10
+Poison Ivy entra al jutjat. Sospitosos: 11
+Mr. Freeze entra al jutjat. Sospitosos: 12
+Catwoman fitxa. Fitxats: 10
+Poison Ivy fitxa. Fitxats: 11
+Jason Todd entra al jutjat. Sospitosos: 13
+Mr. Freeze fitxa. Fitxats: 12
+Hush entra al jutjat. Sospitosos: 14
+Joker entra al jutjat. Sospitosos: 15
+Deathstroke entra al jutjat. Sospitosos: 16
+Jason Todd fitxa. Fitxats: 13
+Mad Hatter entra al jutjat. Sospitosos: 17
+Hush fitxa. Fitxats: 14
+Two-Face entra al jutjat. Sospitosos: 18
+Scarecrow entra al jutjat. Sospitosos: 19
+Joker fitxa. Fitxats: 15
+Clayface entra al jutjat. Sospitosos: 20
+----> Jutge Dredd: Som a la sala, tanqueu la porta!
+----> Jutge Dredd: Fitxeu als sospitosos presents
+Deathstroke fitxa. Fitxats: 16
+Mad Hatter fitxa. Fitxats: 17
+Two-Face fitxa. Fitxats: 18
+Scarecrow fitxa. Fitxats: 19
+Clayface fitxa. Fitxats: 20
+----> Jutge Dredd: Preniu declaració als presents
+Deadshot  declara. Declaracions: 1
+Harley Quinn  declara. Declaracions: 2
+Penguin  declara. Declaracions: 3
+Riddler  declara. Declaracions: 4
+Bane  declara. Declaracions: 5
+Talia al Ghul  declara. Declaracions: 6
+Ra's al Ghul  declara. Declaracions: 7
+Hugo Strange  declara. Declaracions: 8
+Killer Croc  declara. Declaracions: 9
+Catwoman  declara. Declaracions: 10
+Poison Ivy  declara. Declaracions: 11
+Mr. Freeze  declara. Declaracions: 12
+Jason Todd  declara. Declaracions: 13
+Hush  declara. Declaracions: 14
+Joker  declara. Declaracions: 15
+Deathstroke  declara. Declaracions: 16
+Mad Hatter  declara. Declaracions: 17
+Two-Face  declara. Declaracions: 18
+Scarecrow  declara. Declaracions: 19
+Clayface  declara. Declaracions: 20
+----> Jutge Dredd: Podeu abandonar la sala tots a l'asil!
+----> Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden
+Hush  entra a l'Asil d'Arkham
+Bane  entra a l'Asil d'Arkham
+Talia al Ghul  entra a l'Asil d'Arkham
+Scarecrow  entra a l'Asil d'Arkham
+Jason Todd  entra a l'Asil d'Arkham
+Riddler  entra a l'Asil d'Arkham
+Deadshot  entra a l'Asil d'Arkham
+Two-Face  entra a l'Asil d'Arkham
+Poison Ivy  entra a l'Asil d'Arkham
+Penguin  entra a l'Asil d'Arkham
+Catwoman  entra a l'Asil d'Arkham
+Killer Croc  entra a l'Asil d'Arkham
+Clayface  entra a l'Asil d'Arkham
+Mad Hatter  entra a l'Asil d'Arkham
+Mr. Freeze  entra a l'Asil d'Arkham
+Joker  entra a l'Asil d'Arkham
+Deathstroke  entra a l'Asil d'Arkham
+Ra's al Ghul  entra a l'Asil d'Arkham
+Hugo Strange  entra a l'Asil d'Arkham
+Harley Quinn  entra a l'Asil d'Arkham

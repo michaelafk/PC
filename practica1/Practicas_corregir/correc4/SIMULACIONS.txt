@@ -1,0 +1,331 @@
+SIMULACIÓ 1 (Els sospitosos no tarden en fitxar)
+
+La policia de Gotham ha detingut a 20 sospitosos
+El jutge prendra declaracio als que pugui
+
+	Lola: Som innocent!
+	Duke: Som innocent!
+	Milo: Som innocent!
+	Zoe: Som innocent!
+	Leo: Som innocent!
+	Daisy: Som innocent!
+	Rosie: Som innocent!
+	Charlie: Som innocent!
+	Luna: Som innocent!
+	Ruby: Som innocent!
+	Tucker: Som innocent!
+	Buddy: Som innocent!
+	Molly: Som innocent!
+	Sadie: Som innocent!
+	Bella: Som innocent!
+	Rocky: Som innocent!
+	Max: Som innocent!
+	Oliver: Som innocent!
+	Lucy: Som innocent!
+	Cooper: Som innocent!
+----> Jutge Dredd: Jo som la llei!
+	Bella entra al jutjat. Sospitosos: 0
+	Molly entra al jutjat. Sospitosos: 0
+	Ruby entra al jutjat. Sospitosos: 1
+	Buddy entra al jutjat. Sospitosos: 1
+	Max entra al jutjat. Sospitosos: 0
+	Duke entra al jutjat. Sospitosos: 4
+	Milo entra al jutjat. Sospitosos: 5
+	Lola entra al jutjat. Sospitosos: 0
+	Oliver entra al jutjat. Sospitosos: 0
+	Rocky entra al jutjat. Sospitosos: 0
+	Rosie entra al jutjat. Sospitosos: 0
+	Lucy entra al jutjat. Sospitosos: 0
+	Sadie entra al jutjat. Sospitosos: 4
+	Luna entra al jutjat. Sospitosos: 4
+	Cooper entra al jutjat. Sospitosos: 0
+	Zoe entra al jutjat. Sospitosos: 3
+	Leo entra al jutjat. Sospitosos: 2
+	Charlie entra al jutjat. Sospitosos: 2
+	Daisy entra al jutjat. Sospitosos: 0
+	Tucker entra al jutjat. Sospitosos: 1
+----> Jutge Dredd: Si no hiha ningu me'n vaig!
+----> Jutge Dredd: La justicia descansa, dema prendre declaracio als sospitosos que queden.
+	Bella fitxa. Fitxats: 0
+	Molly fitxa. Fitxats: 0
+	Max fitxa. Fitxats: 2
+	Ruby fitxa. Fitxats: 1
+	Milo fitxa. Fitxats: 4
+	Lola fitxa. Fitxats: 4
+	Rocky fitxa. Fitxats: 5
+	Rosie fitxa. Fitxats: 6
+	Lucy fitxa. Fitxats: 8
+	Duke fitxa. Fitxats: 2
+	Luna fitxa. Fitxats: 9
+	Cooper fitxa. Fitxats: 10
+	Leo fitxa. Fitxats: 11
+	Daisy fitxa. Fitxats: 13
+	Buddy fitxa. Fitxats: 13
+	Sadie fitxa. Fitxats: 9
+	Oliver fitxa. Fitxats: 5
+	Tucker fitxa. Fitxats: 13
+	Charlie fitxa. Fitxats: 12
+	Zoe fitxa. Fitxats: 11
+	Molly declara. Declaracions: 0
+	Molly entra a l'Asil d'Arkham.
+	Ruby declara. Declaracions: 1
+	Milo declara. Declaracions: 2
+	Rosie declara. Declaracions: 2
+	Oliver declara. Declaracions: 3
+	Leo declara. Declaracions: 4
+	Lucy declara. Declaracions: 5
+	Ruby entra a l'Asil d'Arkham.
+	Cooper declara. Declaracions: 7
+	Bella declara. Declaracions: 7
+	Lola declara. Declaracions: 2
+	Bella entra a l'Asil d'Arkham.
+	Cooper entra a l'Asil d'Arkham.
+	Luna declara. Declaracions: 7
+	Luna entra a l'Asil d'Arkham.
+	Sadie declara. Declaracions: 7
+	Lucy entra a l'Asil d'Arkham.
+	Leo entra a l'Asil d'Arkham.
+	Max declara. Declaracions: 5
+	Max entra a l'Asil d'Arkham.
+	Zoe declara. Declaracions: 6
+	Daisy declara. Declaracions: 4
+	Oliver entra a l'Asil d'Arkham.
+	Daisy entra a l'Asil d'Arkham.
+	Duke declara. Declaracions: 4
+	Tucker declara. Declaracions: 3
+	Rosie entra a l'Asil d'Arkham.
+	Buddy declara. Declaracions: 3
+	Buddy entra a l'Asil d'Arkham.
+	Charlie declara. Declaracions: 2
+	Charlie entra a l'Asil d'Arkham.
+	Milo entra a l'Asil d'Arkham.
+	Rocky declara. Declaracions: 2
+	Rocky entra a l'Asil d'Arkham.
+	Tucker entra a l'Asil d'Arkham.
+	Duke entra a l'Asil d'Arkham.
+	Zoe entra a l'Asil d'Arkham.
+	Sadie entra a l'Asil d'Arkham.
+	Lola entra a l'Asil d'Arkham.
+
+
+
+SIMULACIÓ 2 (El jutge y els sospitosos tenen el mateix temps d'entrada i poc temps de declaracions)
+
+La policia de Gotham ha detingut a 20 sospitosos
+El jutge prendra declaracio als que pugui
+
+	Milo: Som innocent!
+	Leo: Som innocent!
+	Lucy: Som innocent!
+	Rocky: Som innocent!
+	Rosie: Som innocent!
+	Duke: Som innocent!
+	Sadie: Som innocent!
+	Ruby: Som innocent!
+	Daisy: Som innocent!
+	Buddy: Som innocent!
+	Bella: Som innocent!
+	Zoe: Som innocent!
+	Oliver: Som innocent!
+	Max: Som innocent!
+	Molly: Som innocent!
+	Tucker: Som innocent!
+	Luna: Som innocent!
+	Cooper: Som innocent!
+	Charlie: Som innocent!
+	Lola: Som innocent!
+----> Jutge Dredd: Jo som la llei!
+----> Jutge Dredd: Si no hiha ningu me'n vaig!
+----> Jutge Dredd: La justicia descansa, dema prendre declaracio als sospitosos que queden.
+	Rocky entra al jutjat. Sospitosos: 0
+	Lola entra al jutjat. Sospitosos: 0
+	Zoe entra al jutjat. Sospitosos: 0
+	Ruby entra al jutjat. Sospitosos: 0
+	Luna entra al jutjat. Sospitosos: 0
+	Daisy entra al jutjat. Sospitosos: 0
+	Buddy entra al jutjat. Sospitosos: 0
+	Charlie entra al jutjat. Sospitosos: 0
+	Molly entra al jutjat. Sospitosos: 0
+	Max entra al jutjat. Sospitosos: 0
+	Milo entra al jutjat. Sospitosos: 0
+	Oliver entra al jutjat. Sospitosos: 0
+	Lucy entra al jutjat. Sospitosos: 0
+	Cooper entra al jutjat. Sospitosos: 0
+	Tucker entra al jutjat. Sospitosos: 0
+	Bella entra al jutjat. Sospitosos: 0
+	Duke entra al jutjat. Sospitosos: 0
+	Leo entra al jutjat. Sospitosos: 0
+	Sadie entra al jutjat. Sospitosos: 0
+	Rosie entra al jutjat. Sospitosos: 0
+	Lola fitxa. Fitxats: 0
+	Rosie fitxa. Fitxats: 1
+	Leo fitxa. Fitxats: 1
+	Tucker fitxa. Fitxats: 2
+	Oliver fitxa. Fitxats: 4
+	Max fitxa. Fitxats: 4
+	Buddy fitxa. Fitxats: 5
+	Ruby fitxa. Fitxats: 6
+	Sadie fitxa. Fitxats: 1
+	Zoe fitxa. Fitxats: 1
+	Rocky fitxa. Fitxats: 0
+	Daisy fitxa. Fitxats: 5
+	Luna fitxa. Fitxats: 6
+	Molly fitxa. Fitxats: 4
+	Charlie fitxa. Fitxats: 5
+	Lucy fitxa. Fitxats: 3
+	Milo fitxa. Fitxats: 4
+	Cooper fitxa. Fitxats: 3
+	Bella fitxa. Fitxats: 2
+	Duke fitxa. Fitxats: 2
+	Rosie declara. Declaracions: 0
+	Rosie entra a l'Asil d'Arkham.
+	Duke declara. Declaracions: 1
+	Cooper declara. Declaracions: 1
+	Zoe declara. Declaracions: 1
+	Bella declara. Declaracions: 1
+	Buddy declara. Declaracions: 3
+	Molly declara. Declaracions: 1
+	Daisy declara. Declaracions: 4
+	Ruby declara. Declaracions: 7
+	Daisy entra a l'Asil d'Arkham.
+	Lola declara. Declaracions: 1
+	Oliver declara. Declaracions: 7
+	Lola entra a l'Asil d'Arkham.
+	Oliver entra a l'Asil d'Arkham.
+	Sadie declara. Declaracions: 11
+	Lucy declara. Declaracions: 1
+	Tucker declara. Declaracions: 11
+	Tucker entra a l'Asil d'Arkham.
+	Sadie entra a l'Asil d'Arkham.
+	Leo declara. Declaracions: 9
+	Ruby entra a l'Asil d'Arkham.
+	Molly entra a l'Asil d'Arkham.
+	Buddy entra a l'Asil d'Arkham.
+	Max declara. Declaracions: 5
+	Max entra a l'Asil d'Arkham.
+	Rocky declara. Declaracions: 5
+	Luna declara. Declaracions: 4
+	Bella entra a l'Asil d'Arkham.
+	Charlie declara. Declaracions: 3
+	Charlie entra a l'Asil d'Arkham.
+	Milo declara. Declaracions: 3
+	Zoe entra a l'Asil d'Arkham.
+	Cooper entra a l'Asil d'Arkham.
+	Duke entra a l'Asil d'Arkham.
+	Milo entra a l'Asil d'Arkham.
+	Luna entra a l'Asil d'Arkham.
+	Rocky entra a l'Asil d'Arkham.
+	Leo entra a l'Asil d'Arkham.
+	Lucy entra a l'Asil d'Arkham.
+
+
+
+SIMULACIÓ 3 (El jutge tarda molt en entrar)
+
+La policia de Gotham ha detingut a 20 sospitosos
+El jutge prendra declaracio als que pugui
+
+	Ruby: Som innocent!
+	Rocky: Som innocent!
+	Rosie: Som innocent!
+	Tucker: Som innocent!
+	Daisy: Som innocent!
+	Molly: Som innocent!
+	Leo: Som innocent!
+	Bella: Som innocent!
+	Zoe: Som innocent!
+	Oliver: Som innocent!
+	Sadie: Som innocent!
+	Milo: Som innocent!
+	Lola: Som innocent!
+	Luna: Som innocent!
+	Cooper: Som innocent!
+	Buddy: Som innocent!
+	Duke: Som innocent!
+	Max: Som innocent!
+	Charlie: Som innocent!
+	Lucy: Som innocent!
+	Leo entra al jutjat. Sospitosos: 0
+	Rocky entra al jutjat. Sospitosos: 0
+	Milo entra al jutjat. Sospitosos: 0
+	Ruby entra al jutjat. Sospitosos: 0
+	Daisy entra al jutjat. Sospitosos: 0
+	Bella entra al jutjat. Sospitosos: 0
+	Max entra al jutjat. Sospitosos: 0
+	Molly entra al jutjat. Sospitosos: 0
+	Duke entra al jutjat. Sospitosos: 0
+	Cooper entra al jutjat. Sospitosos: 0
+	Charlie entra al jutjat. Sospitosos: 0
+	Buddy entra al jutjat. Sospitosos: 0
+	Lucy entra al jutjat. Sospitosos: 0
+	Lola entra al jutjat. Sospitosos: 0
+	Luna entra al jutjat. Sospitosos: 0
+	Rosie entra al jutjat. Sospitosos: 0
+	Zoe entra al jutjat. Sospitosos: 0
+	Sadie entra al jutjat. Sospitosos: 0
+	Oliver entra al jutjat. Sospitosos: 0
+	Tucker entra al jutjat. Sospitosos: 0
+	Leo fitxa. Fitxats: 0
+	Luna fitxa. Fitxats: 0
+	Max fitxa. Fitxats: 1
+	Molly fitxa. Fitxats: 2
+	Ruby fitxa. Fitxats: 3
+	Bella fitxa. Fitxats: 0
+	Cooper fitxa. Fitxats: 2
+	Charlie fitxa. Fitxats: 6
+	Zoe fitxa. Fitxats: 5
+	Buddy fitxa. Fitxats: 5
+	Lola fitxa. Fitxats: 4
+	Rosie fitxa. Fitxats: 4
+	Lucy fitxa. Fitxats: 3
+	Milo fitxa. Fitxats: 3
+	Duke fitxa. Fitxats: 2
+	Sadie fitxa. Fitxats: 14
+	Rocky fitxa. Fitxats: 7
+	Daisy fitxa. Fitxats: 6
+	Tucker fitxa. Fitxats: 18
+	Oliver fitxa. Fitxats: 19
+----> Jutge Dredd: Jo som la llei!
+	Luna declara. Declaracions: 0
+	Max declara. Declaracions: 1
+	Luna entra a l'Asil d'Arkham.
+	Max entra a l'Asil d'Arkham.
+	Molly declara. Declaracions: 2
+	Molly entra a l'Asil d'Arkham.
+	Bella declara. Declaracions: 3
+	Bella entra a l'Asil d'Arkham.
+	Charlie declara. Declaracions: 4
+	Charlie entra a l'Asil d'Arkham.
+	Buddy declara. Declaracions: 5
+	Rosie declara. Declaracions: 5
+	Rosie entra a l'Asil d'Arkham.
+	Leo declara. Declaracions: 0
+	Lucy declara. Declaracions: 7
+	Buddy entra a l'Asil d'Arkham.
+	Leo entra a l'Asil d'Arkham.
+	Lola declara. Declaracions: 5
+	Cooper declara. Declaracions: 4
+	Zoe declara. Declaracions: 4
+	Ruby declara. Declaracions: 3
+	Zoe entra a l'Asil d'Arkham.
+	Cooper entra a l'Asil d'Arkham.
+	Lola entra a l'Asil d'Arkham.
+	Rocky declara. Declaracions: 9
+	Lucy entra a l'Asil d'Arkham.
+	Daisy declara. Declaracions: 8
+	Daisy entra a l'Asil d'Arkham.
+	Tucker declara. Declaracions: 7
+	Tucker entra a l'Asil d'Arkham.
+	Milo declara. Declaracions: 7
+	Milo entra a l'Asil d'Arkham.
+	Rocky entra a l'Asil d'Arkham.
+	Duke declara. Declaracions: 13
+	Ruby entra a l'Asil d'Arkham.
+	Sadie declara. Declaracions: 13
+	Sadie entra a l'Asil d'Arkham.
+	Oliver declara. Declaracions: 12
+	Duke entra a l'Asil d'Arkham.
+	Oliver entra a l'Asil d'Arkham.
+----> Jutge Dredd: Som a la sala, tanqueu la porta!
+----> Jutge Dredd: Fitxeu als sospitosos presents.
+----> Jutge Dredd: Preniu declaracio als presents.
