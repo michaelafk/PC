@@ -6,7 +6,6 @@ SemSosFitxar = threading.Semaphore(1) #semaforo de los sospechosos para que vaya
 SemSosDeclarar = threading.Semaphore(0)
 SemJut = threading.Semaphore(0) #semaforo para liberar al juez
 Bloqueig = threading.Semaphore(0) #semaforo para la exclusion mutua sobre la variable turn
-#SemJutS = threading.Semaphore(0)
 #VARIABLES 
 SosCountInSala = 0
 SosCountFitxats = 0
@@ -16,22 +15,25 @@ JutgeInSala = False
 #CONSTANTES
 MaxSospitosos = 20
 SosInsala = 6
+#TIEMPOS DE SIMULACION
+SIMULACION1 =[0.02,0.001,0.01,0.0226,0.0105,0.1]
+SIMULACION2 =[0.02,0.001,0.01,"0.0226","0.0105",0.1]#solo habria que cambiar esos dos
+SIMULACION3 =[0.02,0.001,0.01,0,0,0]
 def sospitos(id):
     global SosCountInSala,SosCountFitxats,SosCountDeclaracions,portaOberta
-    time.sleep(0.02)
+    time.sleep(SIMULACION3[0])
     print(f"sospitos {id}: \tSom innocent!")
     SemSosInsala.acquire()
     if portaOberta == True:
         #SemSosInsala.release
         SosCountInSala+=1
-        time.sleep(0.001)
+        time.sleep(SIMULACION3[1])
         print(f"sospitos {id}: \tha entrat a la sala, sospitos {SosCountInSala}")
         if JutgeInSala == False:
             SemSosInsala.release()
-        
         SemSosFitxar.acquire()
         SosCountFitxats+=1
-        time.sleep(0.01)
+        time.sleep(SIMULACION3[2])
         print(f"sospitos {id}: \tfitxa, fitxat {SosCountFitxats}")
         if SosCountFitxats == SosCountInSala:
             SemJut.release()
@@ -39,7 +41,7 @@ def sospitos(id):
 
         SemSosDeclarar.acquire()
         SosCountDeclaracions+=1
-        time.sleep(0.01)
+        time.sleep(SIMULACION3[2])
         print(f"sospitos {id}: \tdeclara, declaracio {SosCountDeclaracions}")
         if SosCountDeclaracions == SosCountInSala:
             SemJut.release()
@@ -55,24 +57,29 @@ def sospitos(id):
         SemSosInsala.release()
 def jutge():
     global SemSosInsala,SosCountFitxats,SosCountDeclaracions,portaOberta,JutgeInSala
-    time.sleep(0.0226)
+    time.sleep(SIMULACION3[3])
     print("--->Jutge Dredd: Jo som la llei!")
-    time.sleep(0.0105)
+    time.sleep(SIMULACION3[4])
     SemSosInsala.acquire
     portaOberta = False
     JutgeInSala = True
-    print("--->Jutge Dred: Ja som en la sala, tanqueu sa porta")
-    print("--->Jutge Dred: Fitxeu als sospitosos presents")
-    SemSosInsala.release()
-    SemJut.acquire()#esperar fins que els sospitosos fitxen
-    print("--->Jutge Dred: Preniu declaracio als presents")
-    SemSosDeclarar.release()
-    SemJut.acquire#esperar fins que els sospitosos declarin
-    time.sleep(0.1)
-    print("Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden")
-    #SemSosInsala.release()
-    Bloqueig.release()#donar permis per a que els sospitosos acabin
-    
+    print("--->Jutge Dredd: Ja som en la sala, tanqueu sa porta")
+    if(SosCountInSala != 0):
+        print("--->Jutge Dredd: Fitxeu als sospitosos presents")
+        SemSosInsala.release()
+        SemJut.acquire()#esperar fins que els sospitosos fitxen
+        print("--->Jutge Dredd: Preniu declaracio als presents")
+        SemSosDeclarar.release()
+        SemJut.acquire#esperar fins que els sospitosos declarin
+        time.sleep(SIMULACION3[5])
+        print("--->Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden")
+        #SemSosInsala.release()
+        Bloqueig.release()#donar permis per a que els sospitosos acabin
+    else:
+        print("--->Jutge Dredd: Si no hi ha ningú me'n vaig!")
+        time.sleep(SIMULACION3[5])
+        print("--->Jutge Dredd: La justícia descansa, demà prendré declaració als sospitosos que queden")
+        Bloqueig.release()#donar permis per a que els sospitosos acabin
 
 def main():
     threads = []
