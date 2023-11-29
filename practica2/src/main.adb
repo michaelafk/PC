@@ -23,6 +23,7 @@ procedure Main is
       if(del_norte) then
          --viene del norte y por tanto hace los prints que toca del norte
          --junto con las funciones del norte
+         Put_Line("El cotxe " & )
       else
          --viene del sur y por tanto hace los prints que toca del sur
          --junto con las funciones del sur
@@ -39,5 +40,4 @@ begin
    --comienzo de las tasks
    for I in coches'Range loop
       coches(I).Start(I,(I%2 == 0))
-   null;
 end Main;
