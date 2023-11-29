@@ -4,7 +4,7 @@ procedure Main is
    --5 coches y una ambulacia
    THREADS : constant Integer := 6;
    --dato compartido con las tasks
-   monitor : puente
+   monitor : puente;
    --especificacion de la tasks
    task type vehiculo is
       entry Start(id : Integer; Ruta_del_norte: boolean);
@@ -15,29 +15,37 @@ procedure Main is
       del_norte: Boolean;
    begin
       accept Start(id: Integer; Ruta_del_norte: Boolean) do
-         --hacer algo aqui, todavia no se
+         --obtenir varibales per als Put_lines
          nom := id;
          del_norte := Ruta_del_norte;
       end Start;
-      delay 0.1;
       if(del_norte) then
-         --viene del norte y por tanto hace los prints que toca del norte
-         --junto con las funciones del norte
-         Put_Line("El cotxe " & )
+         delay 0.1;--esepra a posar-se en marxa
+         Put_Line("El cotxe" &Integer'Image(nom)&"est� en ruta en direcci� Nord");
+         delay 0.1;--espera per arribar al pont
+         monitor.entrada_del_norte(nom);
+         delay 0.1;--espera per travesar el pont
+         monitor.salir(nom);--surt del pont
       else
-         --viene del sur y por tanto hace los prints que toca del sur
-         --junto con las funciones del sur
+         delay 0.1;--espera a posar-se en marxa
+         Put_Line("El cotxe" &Integer'Image(nom)&"est� en ruta en direcci� Sud");
+         delay 0.1;--espera per arribar al pont
+         monitor.entrada_del_sur(nom);
+         delay 0.1;--espera per travesar el pont
+         monitor.salir(nom);--surt del pont
       end if;
 
    end vehiculo;
 
-   coches is array(1..THREADS) of vehiculo;
+   type vehiculos is array(1..THREADS) of vehiculo;
+   coches        :vehiculos;
 
-
+   local: Boolean;
 begin
    --inicio de la simulacion
    Put_Line("INICIO DE LA SIMULACION");
    --comienzo de las tasks
    for I in coches'Range loop
       coches(I).Start(I,(I%2 == 0))
+   null;
 end Main;
