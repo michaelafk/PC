@@ -19,34 +19,47 @@ procedure Main is
          nom := id;
          del_norte := Ruta_del_norte;
       end Start;
-      if(del_norte) then
-         delay 0.1;--esepra a posar-se en marxa
-         Put_Line("El cotxe" &Integer'Image(nom)&"est� en ruta en direcci� Nord");
-         delay 0.1;--espera per arribar al pont
-         monitor.entrada_del_norte(nom);
-         delay 0.1;--espera per travesar el pont
-         monitor.salir(nom);--surt del pont
+      if nom /= 112 then
+         if(del_norte) then
+            delay 0.1;--espera per posar-se en marxa
+            Put_Line("El cotxe " &Integer'Image(nom)&" esta en ruta en direccion Nord");
+            monitor.entrada_del_norte(nom);--arriba a l'entrada del nord
+            delay 0.1;--espera per arribar al pont
+            monitor.salir_del_norte(nom);--salir de l'entrada i entrar en el pont
+            delay 0.1;--espera per sortir del pont
+            monitor.salir(nom);--sortir del pont
+         else
+            delay 0.1;--espera a posar-se en marxa
+            Put_Line("El cotxe " &Integer'Image(nom)&" esta en ruta en direccion Sud");
+            monitor.entrada_del_sur(nom);--arriba a l'entrada del nord
+            delay 0.1;--espera per sortir del pont
+            monitor.salir_del_sur(nom);--salir de l'entrada i entrar en el pont
+            delay 0.1;--espera per sortir del pont
+            monitor.salir(nom);--surt del pont
+         end if;
       else
-         delay 0.1;--espera a posar-se en marxa
-         Put_Line("El cotxe" &Integer'Image(nom)&"est� en ruta en direcci� Sud");
+         delay 0.1;--espera per posar-se en marxa
+         Put_Line("+++++Ambulancia "&Integer'Image(nom)&" esta en ruta");
          delay 0.1;--espera per arribar al pont
-         monitor.entrada_del_sur(nom);
-         delay 0.1;--espera per travesar el pont
-         monitor.salir(nom);--surt del pont
+         monitor.ambulancia_es_al_pont(nom);--avisar que la ambulancia hi es al pont
+         monitor.entrada_ambulancia(nom);--entrar al pont
+         delay 0.1;--espera per travessar el pont
+         monitor.salir(nom);
       end if;
-
    end vehiculo;
 
+   --array de las tasks vehivulo
    type vehiculos is array(1..THREADS) of vehiculo;
    coches        :vehiculos;
 
+   --variable local para obtener la direccion de los coches
    local: Boolean;
 begin
-   --inicio de la simulacion
-   Put_Line("INICIO DE LA SIMULACION");
-   --comienzo de las tasks
+   --inici de la simulacio
+   Put_Line("***************INICI DE LA SIMULACIO DEL PONT***************");
+   --comen�ament de les tasks
    for I in 1..THREADS loop
       local := (I mod 2) = 0;
-      coches(I).Start(I,local);
+      coches(I).Start((if I /= 6 then I else 112),local);
    end loop;
 end Main;

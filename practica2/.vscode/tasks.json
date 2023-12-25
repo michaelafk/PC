@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "ada",
+			"configuration": {
+				"kind": "buildAndRunMain",
+				"projectFile": "C:\\Users\\michael\\Desktop\\prog\\PC\\practica2\\practica2.gpr",
+				"main": "src/main.adb",
+				"executable": "obj/main.exe"
+			},
+			"label": "ada: Build and run main - main.adb"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+---- Ejemplo de simulación ----------------------------------------
+-- Hay intercalado y la ambulancia tiene prioridad
+-- Entran al puente coches de la cola más larga
+-- Hay esperas fijas que simulan arrancar el coche,
+-- viajar al puente y cruzar el puente
+
+El cotxe  4 està en ruta en direcció Nord
+L'ambulancia 112està en ruta
+El cotxe  6 està en ruta en direcció Nord
+El cotxe  1 està en ruta en direcció Sud
+El cotxe  2 està en ruta en direcció Nord
+El cotxe  5 està en ruta en direcció Sud
+El cotxe  3 està en ruta en direcció Sud
+El cotxe  1 espera en la entrada SUD, esperen al SUD:  1
+El cotxe  2 espera en la entrada NORD, esperen al NORD:  1
+El cotxe  3 espera en la entrada SUD, esperen al SUD:  2
+El cotxe  3 entra al pont. Esperen al SUD:  1
+El cotxe  5 espera en la entrada SUD, esperen al SUD:  2
+El cotxe  4 espera en la entrada NORD, esperen al NORD:  2
+El cotxe  6 espera en la entrada NORD, esperen al NORD:  3
++++++Ambulància 112 espera per entrar
+---->El vehicle  3 surt del pont
++++++Ambulància  112 és al pont
+---->El vehicle  112 surt del pont
+El cotxe  2 entra al pont. Esperen al NORD:  2
+---->El vehicle  2 surt del pont
+El cotxe  4 entra al pont. Esperen al NORD:  1
+---->El vehicle  4 surt del pont
+El cotxe  5 entra al pont. Esperen al SUD:  1
+---->El vehicle  5 surt del pont
+El cotxe  6 entra al pont. Esperen al NORD:  0
+---->El vehicle  6 surt del pont
+El cotxe  1 entra al pont. Esperen al SUD:  0
+---->El vehicle  1 surt del pont

@@ -5,6 +5,7 @@ A -march=x86-64
 P ZX
 
 RN
+RV SIMPLE_BARRIERS
 RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_EXCEPTION_HANDLERS
 RV NO_EXCEPTION_PROPAGATION
@@ -14,9 +15,9 @@ RV NO_PROTECTED_TYPES
 RV NO_STANDARD_STORAGE_POOLS
 RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
-RV MAX_PROTECTED_ENTRIES=2
+RV MAX_PROTECTED_ENTRIES=5
 
-U def_monitor%b		def_monitor.adb		3d5cd44d NE OO PK IL
+U def_monitor%b		def_monitor.adb		002cece1 NE OO PK IL
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
 Z system%s		system.ads		system.ali
 Z system.concat_3%s	s-conca3.adb		s-conca3.ali
@@ -27,7 +28,7 @@ Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
 Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
 Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
 
-U def_monitor%s		def_monitor.ads		c7abcbc2 EE NE OO PK IL
+U def_monitor%s		def_monitor.ads		afeaabca EE NE OO PK IL
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -48,8 +49,8 @@ D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
 D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
 D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D def_monitor.ads	20231129110910 695f1eaf def_monitor%s
-D def_monitor.adb	20231129110900 5403cae2 def_monitor%b
+D def_monitor.ads	20231130151922 011e7ea7 def_monitor%s
+D def_monitor.adb	20231210105000 01329246 def_monitor%b
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
@@ -89,35 +90,57 @@ D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
 G a e
 G c Z s b [entrada_del_sur def_monitor__puente 5 13 none]
 G c Z s b [entrada_del_norte def_monitor__puente 6 13 none]
-G c Z s b [salir def_monitor__puente 7 17 none]
-G c Z s b [puente__salirN def_monitor 7 7 none]
-G c Z s b [puente__salirP def_monitor 7 7 none]
+G c Z s b [salir_del_sur def_monitor__puente 7 13 none]
+G c Z s b [salir_del_norte def_monitor__puente 8 13 none]
+G c Z s b [entrada_ambulancia def_monitor__puente 9 13 none]
+G c Z s b [ambulancia_es_al_pont def_monitor__puente 10 17 none]
+G c Z s b [salir def_monitor__puente 11 17 none]
+G c Z s b [puente__ambulancia_es_al_pontN def_monitor 10 7 none]
+G c Z s b [puente__ambulancia_es_al_pontP def_monitor 10 7 none]
+G c Z s b [puente__salirN def_monitor 11 7 none]
+G c Z s b [puente__salirP def_monitor 11 7 none]
 G c Z s s [puenteVDI def_monitor 4 4 none]
 G c Z s s [puenteVDF def_monitor 4 4 none]
 G c Z s s [puenteVIP def_monitor 4 4 none]
 G c Z s s [P2sIP def_monitor 5 7 none]
 G c Z s s [P5sIP def_monitor 6 7 none]
+G c Z s s [P8sIP def_monitor 7 7 none]
+G c Z s s [P11sIP def_monitor 8 7 none]
+G c Z s s [P14sIP def_monitor 9 7 none]
 X 1 ada.ads
 16K9*Ada 20e8 12|1r6 1r23
 X 10 a-textio.ads
 58K13*Text_IO 725e16 12|1w10 1r27
-506U14*Put_Line 13|9s10 13s13 21s10 25s13 33s10
+506U14*Put_Line 13|9s10 16s10 24s10 31s10 37s10 44s10 48s10
 X 12 def_monitor.ads
-3K9*def_monitor 14l5 14e16 13|1b14 37l5 37t16
-4W19*puente 10E7 13l8 13e14 13|2b19 36l8 36t14
-5Y13 entrada_del_sur 5>29 13|6b13 15l11 15t26
-5i29 Id{integer} 13|9r46 13r49
-6Y13 entrada_del_norte 6>31 13|18b13 27l11 27t28
-6i31 Id{integer} 13|21r46 25r49
-7U17 salir 7>23 13|30b17 34l11 34t16
-7i23 Id{integer} 13|30b23 33r52
-10i7 coches_en_sur{integer} 13|8r10 8r27 9r107 10r13 11r13 11r30 13r101 22r32
-11i7 coches_en_norte{integer} 13|10r29 20r10 20r29 21r109 22r13 23r13 23r32
-. 25r102
-12b7 puente_esta_vacio{boolean} 13|6r48 10r49 12r13 18r50 22r50 24r13 32r10
+3K9*def_monitor 18l5 18e16 13|1b14 53l5 53t16
+4W19*puente 13E7 17l8 17e14 13|2b19 52l8 52t14
+5Y13 entrada_del_sur 5>29 13|6b13 10l11 10t26
+5i29 Id{integer} 13|9r50
+6Y13 entrada_del_norte 6>31 13|13b13 17l11 17t28
+6i31 Id{integer} 13|16r45
+7Y13 salir_del_sur 7>27 13|20b13 25l11 25t24
+7i27 Id{integer} 13|24r52
+8Y13 salir_del_norte 8>29 13|27b13 32l11 32t26
+8i29 Id{integer} 13|31r47
+9Y13 entrada_ambulancia 9>32 13|40b13 45l11 45t29
+9i32 Id{integer} 13|44r52
+10U17 ambulancia_es_al_pont 10>39 13|34b17 38l11 38t32
+10i39 Id{integer} 13|34b39 37r52
+11U17 salir 11>23 13|46b17 50l11 50t16
+11i23 Id{integer} 13|46b23 48r52
+13i7 coches_en_sur{integer} 13|6r48 8r10 8r27 9r112 20r67 23r10 23r27 24r105
+. 27r87
+14i7 coches_en_norte{integer} 13|13r50 15r10 15r29 16r109 20r83 27r69 30r10
+. 30r29 31r101
+15b7 puente_esta_vacio{boolean} 13|20r45 22r10 27r47 29r10 40r50 42r10 49r10
+16b7 ambulancia_esperando{boolean} 13|20r107 27r109 36r10 43r10
 X 13 def_monitor.adb
 6i29 Id{integer}
-18i31 Id{integer}
+13i31 Id{integer}
+20i27 Id{integer}
+27i29 Id{integer}
+40i32 Id{integer}
 X 35 s-stausa.ads
 208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
 273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
