@@ -1,0 +1,4 @@
+main.adb:49:27: error: binary operator expected
+main.adb:49:36: error: missing string quote
+main.adb:50:08: error: missing ")"
+main.adb:51:01: error: "end loop;" expected for "loop" at line 48
