@@ -1,0 +1,141 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_PROTECTED_TYPES
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV MAX_PROTECTED_ENTRIES=3
+
+U puente%b		puente.adb		2bc35a41 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W puente%s		puente.adb		puente.ali
+Z system%s		system.ads		system.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+
+U puente%s		puente.ads		86ce3be6 EE NE OO PK
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+Z system%s		system.ads		system.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D puente.ads		20231128004424 86ce3be6 puente%s
+D puente.adb		20231128005426 85378f2c puente%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20210520051132 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210520051132 7e642b20 system.concat_4%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [entrar_norte puente__acceso_puente 7 13 none]
+G c Z s b [entrar_sur puente__acceso_puente 8 13 none]
+G c Z s b [entrar_ambulancia puente__acceso_puente 9 13 none]
+G c Z s b [ambulancia_espera puente__acceso_puente 10 17 none]
+G c Z s b [incrementar_coches puente__acceso_puente 11 17 none]
+G c Z s b [decrementar_coches puente__acceso_puente 12 17 none]
+G c Z s b [acceso_puente__ambulancia_esperaN puente 10 7 none]
+G c Z s b [acceso_puente__ambulancia_esperaP puente 10 7 none]
+G c Z s b [acceso_puente__incrementar_cochesN puente 11 7 none]
+G c Z s b [acceso_puente__incrementar_cochesP puente 11 7 none]
+G c Z s b [acceso_puente__decrementar_cochesN puente 12 7 none]
+G c Z s b [acceso_puente__decrementar_cochesP puente 12 7 none]
+G c Z s s [acceso_puenteVDI puente 5 4 none]
+G c Z s s [acceso_puenteVDF puente 5 4 none]
+G c Z s s [acceso_puenteVIP puente 5 4 none]
+G c Z s s [P2sIP puente 7 7 none]
+G c Z s s [P5sIP puente 8 7 none]
+G c Z s s [P8sIP puente 9 7 none]
+X 1 ada.ads
+16K9*Ada 20e8 17|2r6 3r5
+X 10 a-textio.ads
+58K13*Text_IO 725e16 17|2w10 3r9
+506U14*Put_Line 17|20s10 22s10 31s10 33s10 42s10 44s10 50s10
+X 16 puente.ads
+4K9*Puente 19l5 19e11 17|6w6 10b14 73l5 73t11
+5W19*Acceso_Puente 14E7 18l8 18e21 17|11b19 72l8 72t21
+7Y13 Entrar_Norte 7>26 17|14b13 24l11 24t23
+7i26 Id{integer} 17|20r47 22r54
+8Y13 Entrar_Sur 8>24 17|26b13 35l11 35t21
+8i24 Id{integer} 17|31r47 33r54
+9Y13 Entrar_Ambulancia 9>31 17|38b13 45l11 45t28
+9i31 Id{integer} 17|44r54
+10U17 Ambulancia_Espera 17|47b17 51l11 51t28
+11U17 Incrementar_Coches 11>36 17|54b17 61l11 61t29
+11e36 Direccion{character} 17|54b36 56r13
+12U17 Decrementar_Coches 12>36 17|18s10 63b17 70l11 70t29
+12e36 Direccion{character} 17|63b36 65r13
+14i7 Coches_Norte{integer} 17|14r44 20r105 26r55 57r13 57r29 66r13 66r29
+15i7 Coches_Sur{integer} 17|14r60 26r42 31r104 59r13 59r27 68r13 68r27
+16b7 Puente_Ocupado{boolean} 17|15r17 17r10 23r10 27r17 29r10 34r10 38r53
+. 40r10
+17b7 Ambulancia_Esperando{boolean} 17|15r40 27r40 38r72 41r10 49r10
+X 17 puente.adb
+14i26 Id{integer}
+26i24 Id{integer}
+38i31 Id{integer}
+X 35 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+

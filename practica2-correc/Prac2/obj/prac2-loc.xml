@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\P2Concurrente\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\P2Concurrente\src\puente_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 18" >
+      <vfs_project />
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\P2Concurrente\src\puente_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\P2Concurrente\src\puente_monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\P2Concurrente\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_project>
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 22" line=" 19" >
+      <vfs_project>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_project>
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_project>
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\src\def_monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_project>
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\src\def_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\prac2.gpr</vfs_project>
+      <vfs_file>C:\Users\michael\Desktop\prog\PC\practica2-correc\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\GNAT\2021\bin\src\test\Prac2\prac2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2021\bin\src\test\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2021\bin\src\test\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2021\bin\src\test\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2021\bin\src\test\Prac2\src\def_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\GNAT\2021\bin\src\test\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\GNAT\2021\bin\src\test\Prac2\src\def_monitor.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\def_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\def_monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\def_monitor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\def_monitor.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >C:\Users\Santi\Documents\Prac2\prac2.gpr</vfs_project>
+      <vfs_file >C:\Users\Santi\Documents\Prac2\src\def_monitor.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

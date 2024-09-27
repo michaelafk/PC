@@ -1,0 +1,4 @@
+coche.adb:16:10: error: invalid use of subtype mark in expression or call
+coche.adb:18:10: error: invalid use of subtype mark in expression or call
+coche.adb:23:10: error: invalid use of subtype mark in expression or call
+coche.adb:25:10: error: invalid use of subtype mark in expression or call
