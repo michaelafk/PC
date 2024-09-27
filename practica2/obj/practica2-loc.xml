@@ -1,21 +1,14 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project >
-    <file_marker column=" 24" line=" 10" >
+  <Project>
+    <vfs_file>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\practica2.gpr</vfs_file>
+    <file_marker column=" 29" line=" 49" >
       <vfs_project>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\src\main.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 25" line=" 6" >
+    <file_marker current="true" column=" 15" line=" 13" >
       <vfs_project>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\practica2.gpr</vfs_project>
       <vfs_file>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\src\def_monitor.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 11" >
-      <vfs_project>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\src\main.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 27" line=" 49" >
-      <vfs_project>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\practica2.gpr</vfs_project>
-      <vfs_file>C:\Users\kirky\OneDrive\Escritorio\INGinfo\PC\practica2\src\main.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>
